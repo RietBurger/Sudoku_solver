@@ -1,0 +1,9 @@
+1) find all empty spaces
+2) find all possible allocations from 1 to 9 and place in list/array
+3) go through list of possible allocations and see if only one number in possible allocation at any point xy
+    	- if yes, allocate this number and restart from step 1
+        - else, find if only one possibble allocation in a block at xy
+            - if yes, allocate number and restart from step 1
+    restart from step 1 until: puzzle completed
+        or no longer meeting either of the above 2 conditions.
+
